@@ -1,0 +1,324 @@
+﻿Der Buildvorgang wurde am 14.09.2015 20:12:46 gestartet.
+     1>Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2) auf Knoten "2", GetTargetPath Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetTargetPath Ziel(e).
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2:2) auf Knoten "2", GetNativeManifest Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetNativeManifest Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxFFT\libs /I..\..\..\addons\ofxFFT\src /I..\..\..\addons\ofxMidi\libs /I..\..\..\addons\ofxMidi\src /I..\..\..\addons\ofxMidi\src\rtmidi /I..\..\..\addons\ofxSpout2\libs /I..\..\..\addons\ofxSpout2\src /I..\..\..\addons\ofxSpout2\libs\include /I..\..\..\addons\ofxSpout2\libs\src /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\ofApp.cpp ..\..\..\addons\ofxFFT\src\ofxFFTBase.cpp ..\..\..\addons\ofxFFT\src\ofxFFTFile.cpp ..\..\..\addons\ofxFFT\src\ofxFFTLive.cpp ..\..\..\addons\ofxFFT\libs\fft.cpp ..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp ..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp ..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp ..\..\..\addons\ofxMidi\src\rtmidi\RtMidi.cpp ..\..\..\addons\ofxSpout2\src\ofxSpout2.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutDirectX.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutGLDXinterop.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutGLextensions.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutMemoryShare.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutReceiver.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSDK.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSender.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSenderNames.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSharedMemory.cpp
+         main.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofApp.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxFFTBase.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxFFTFile.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxFFTLive.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         fft.cpp
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(148): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(160): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(161): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(162): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(163): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(232): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(246): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(248): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(259): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(260): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(261): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(262): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(297): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(313): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(315): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(327): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(328): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(329): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(330): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(393): warning C4244: '*=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(400): warning C4244: '*=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(406): warning C4244: '*=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(419): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(426): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(432): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(504): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(571): warning C4244: 'Argument': Konvertierung von 'double' in 'size_t', möglicher Datenverlust
+     1>..\..\..\addons\ofxFFT\libs\fft.cpp(572): warning C4244: 'Argument': Konvertierung von 'double' in 'size_t', möglicher Datenverlust
+         ofxMidiIn.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxMidiMessage.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxMidiOut.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         RtMidi.cpp
+         ofxSpout2.cpp
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         SpoutDirectX.cpp
+         SpoutGLDXinterop.cpp
+         SpoutGLextensions.cpp
+         SpoutMemoryShare.cpp
+         SpoutReceiver.cpp
+         SpoutSDK.cpp
+         SpoutSender.cpp
+         SpoutSenderNames.cpp
+         SpoutSharedMemory.cpp
+         Code wird generiert...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2:3) auf Knoten "2", GetResolvedLinkLibs Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetResolvedLinkLibs Ziel(e).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\spout_midi_fft_test01.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\spout_midi_fft_test01.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\spout_midi_fft_test01.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxFFTBase.obj
+         obj\Release\ofxFFTFile.obj
+         obj\Release\ofxFFTLive.obj
+         obj\Release\fft.obj
+         obj\Release\ofxMidiIn.obj
+         obj\Release\ofxMidiMessage.obj
+         obj\Release\ofxMidiOut.obj
+         obj\Release\RtMidi.obj
+         obj\Release\ofxSpout2.obj
+         obj\Release\SpoutDirectX.obj
+         obj\Release\SpoutGLDXinterop.obj
+         obj\Release\SpoutGLextensions.obj
+         obj\Release\SpoutMemoryShare.obj
+         obj\Release\SpoutReceiver.obj
+         obj\Release\SpoutSDK.obj
+         obj\Release\SpoutSender.obj
+         obj\Release\SpoutSenderNames.obj
+         obj\Release\SpoutSharedMemory.obj
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Bibliothek "bin\spout_midi_fft_test01.lib" und Objekt "bin\spout_midi_fft_test01.exp" werden erstellt.
+         LINK : /LTCG wurde angegeben, es ist jedoch keine Codegenerierung erforderlich. Entfernen Sie /LTCG aus der Linkbefehlszeile, um die Linkerleistung zu erhöhen.
+         spout_midi_fft_test01.vcxproj -> D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\bin\spout_midi_fft_test01.exe
+       PostBuildEvent:
+         xcopy /e /i /y "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\*.dll" "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\bin"
+         :VCEnd
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\Assimp32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\fmodex.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\fmodexL.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\FreeImage.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\FreeType-6.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\glut32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\libeay32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\ssleay32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\Zlib.dll
+         9 Datei(en) kopiert
+     1>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:40.87

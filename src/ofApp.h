@@ -31,6 +31,7 @@ class ofApp : public ofBaseApp, public ofxMidiListener{
 		ofxSpout2 spout;
 
 		ofPoint cPos;
+		float movingRadius;
 		float circleRadius;
 
 		ofxMidiIn	midiIn;
@@ -41,6 +42,8 @@ class ofApp : public ofBaseApp, public ofxMidiListener{
 
 		void audioIn(float * input, int bufferSize, int nChannels);
 		void drawSamples(vector<float> samples);
+		float analyzeSampleRange(vector<float> samples, float minRange, float maxRange);
+		void visualizeSampleRange(float minRange, float maxRange);
 		ofSoundStream soundStream;
 		vector<float> samplesChannelL;
 		vector<float> samplesChannelR;

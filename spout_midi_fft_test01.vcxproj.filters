@@ -1,189 +1,186 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.cpp">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.cpp">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.cpp">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxFFT\libs\fft.cpp">
-			<Filter>addons\ofxFFT\libs</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxMidi\src\rtmidi\readme">
-			<Filter>addons\ofxMidi\src\rtmidi</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxMidi\src\rtmidi\RtMidi.cpp">
-			<Filter>addons\ofxMidi\src\rtmidi</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\src\ofxSpout2.cpp">
-			<Filter>addons\ofxSpout2\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutDirectX.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutGLDXinterop.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutGLextensions.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutMemoryShare.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutReceiver.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSDK.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSender.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSenderNames.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSharedMemory.cpp">
-			<Filter>addons\ofxSpout2\libs\src</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxFFT">
-			<UniqueIdentifier>{A51EF345-6145-7F34-5210-584B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxFFT\src">
-			<UniqueIdentifier>{CEF5BE20-E223-E8E5-5FDB-C2D7}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxFFT\libs">
-			<UniqueIdentifier>{1AA69749-353B-6094-7733-4489}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxMidi">
-			<UniqueIdentifier>{4DF4D977-A753-531B-5057-9AC1}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxMidi\src">
-			<UniqueIdentifier>{7EED8620-FDD5-520C-3F5D-2677}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxMidi\src\rtmidi">
-			<UniqueIdentifier>{0C1FBA32-4549-BA6D-21FA-13AF}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSpout2">
-			<UniqueIdentifier>{DB49CB87-27C8-0C02-F602-86D7}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSpout2\src">
-			<UniqueIdentifier>{917203BC-05C2-034C-1B38-B098}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSpout2\libs">
-			<UniqueIdentifier>{68A64BA7-C89A-C657-EC7A-10D6}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSpout2\libs\include">
-			<UniqueIdentifier>{76E15BF2-5348-07F8-F8E1-A911}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSpout2\libs\src">
-			<UniqueIdentifier>{EED9D931-64B9-6EC6-5E54-A96C}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.h">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.h">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.h">
-			<Filter>addons\ofxFFT\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxFFT\libs\fft.h">
-			<Filter>addons\ofxFFT\libs</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h">
-			<Filter>addons\ofxMidi\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\rtmidi\RtError.h">
-			<Filter>addons\ofxMidi\src\rtmidi</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxMidi\src\rtmidi\RtMidi.h">
-			<Filter>addons\ofxMidi\src\rtmidi</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\src\ofxSpout2.h">
-			<Filter>addons\ofxSpout2\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\Spout.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutCommon.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutDirectX.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutGLDXinterop.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutGLextensions.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutMemoryShare.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutReceiver.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSDK.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSender.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSenderNames.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSharedMemory.h">
-			<Filter>addons\ofxSpout2\libs\include</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.cpp">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.cpp">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.cpp">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFFT\libs\fft.cpp">
+      <Filter>addons\ofxFFT\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\rtmidi\RtMidi.cpp">
+      <Filter>addons\ofxMidi\src\rtmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\src\ofxSpout2.cpp">
+      <Filter>addons\ofxSpout2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutDirectX.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutGLDXinterop.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutGLextensions.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutMemoryShare.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutReceiver.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSDK.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSender.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSenderNames.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSpout2\libs\src\SpoutSharedMemory.cpp">
+      <Filter>addons\ofxSpout2\libs\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFFT">
+      <UniqueIdentifier>{A51EF345-6145-7F34-5210-584B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFFT\src">
+      <UniqueIdentifier>{CEF5BE20-E223-E8E5-5FDB-C2D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFFT\libs">
+      <UniqueIdentifier>{1AA69749-353B-6094-7733-4489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi">
+      <UniqueIdentifier>{4DF4D977-A753-531B-5057-9AC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi\src">
+      <UniqueIdentifier>{7EED8620-FDD5-520C-3F5D-2677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi\src\rtmidi">
+      <UniqueIdentifier>{0C1FBA32-4549-BA6D-21FA-13AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSpout2">
+      <UniqueIdentifier>{DB49CB87-27C8-0C02-F602-86D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSpout2\src">
+      <UniqueIdentifier>{917203BC-05C2-034C-1B38-B098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSpout2\libs">
+      <UniqueIdentifier>{68A64BA7-C89A-C657-EC7A-10D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSpout2\libs\include">
+      <UniqueIdentifier>{76E15BF2-5348-07F8-F8E1-A911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSpout2\libs\src">
+      <UniqueIdentifier>{EED9D931-64B9-6EC6-5E54-A96C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.h">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.h">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.h">
+      <Filter>addons\ofxFFT\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFT\libs\fft.h">
+      <Filter>addons\ofxFFT\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\rtmidi\RtError.h">
+      <Filter>addons\ofxMidi\src\rtmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\rtmidi\RtMidi.h">
+      <Filter>addons\ofxMidi\src\rtmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\src\ofxSpout2.h">
+      <Filter>addons\ofxSpout2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\Spout.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutCommon.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutDirectX.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutGLDXinterop.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutGLextensions.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutMemoryShare.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutReceiver.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSDK.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSender.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSenderNames.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSpout2\libs\include\SpoutSharedMemory.h">
+      <Filter>addons\ofxSpout2\libs\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
 </Project>

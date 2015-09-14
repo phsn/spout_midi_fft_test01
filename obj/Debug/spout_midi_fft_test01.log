@@ -1,0 +1,83 @@
+﻿Der Buildvorgang wurde am 14.09.2015 21:36:16 gestartet.
+     1>Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2) auf Knoten "2", GetTargetPath Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetTargetPath Ziel(e).
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2:2) auf Knoten "2", GetNativeManifest Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetNativeManifest Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxFFT\libs /I..\..\..\addons\ofxFFT\src /I..\..\..\addons\ofxMidi\libs /I..\..\..\addons\ofxMidi\src /I..\..\..\addons\ofxMidi\src\rtmidi /I..\..\..\addons\ofxSpout2\libs /I..\..\..\addons\ofxSpout2\src /I..\..\..\addons\ofxSpout2\libs\include /I..\..\..\addons\ofxSpout2\libs\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>d:\00_development\openframeworks\v0.8.4\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter': Erbt 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74): Siehe Deklaration von 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>d:\00_development\openframeworks\v0.8.4\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter': Erbt 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via Dominanz
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90): Siehe Deklaration von 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2:3) auf Knoten "2", GetResolvedLinkLibs Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetResolvedLinkLibs Ziel(e).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\spout_midi_fft_test01_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInputD.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib ssleay32MD.lib libeay32MD.lib crypt32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationmdd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:msvcrt /NODEFAULTLIB:libcmt /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\spout_midi_fft_test01_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\spout_midi_fft_test01_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\icon.res
+         obj\Debug\main.obj
+         obj\Debug\ofApp.obj
+         obj\Debug\ofxFFTBase.obj
+         obj\Debug\ofxFFTFile.obj
+         obj\Debug\ofxFFTLive.obj
+         obj\Debug\fft.obj
+         obj\Debug\ofxMidiIn.obj
+         obj\Debug\ofxMidiMessage.obj
+         obj\Debug\ofxMidiOut.obj
+         obj\Debug\RtMidi.obj
+         obj\Debug\ofxSpout2.obj
+         obj\Debug\SpoutDirectX.obj
+         obj\Debug\SpoutGLDXinterop.obj
+         obj\Debug\SpoutGLextensions.obj
+         obj\Debug\SpoutMemoryShare.obj
+         obj\Debug\SpoutReceiver.obj
+         obj\Debug\SpoutSDK.obj
+         obj\Debug\SpoutSender.obj
+         obj\Debug\SpoutSenderNames.obj
+         obj\Debug\SpoutSharedMemory.obj
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\lib\vs\openframeworksLib_debug.lib
+         spout_midi_fft_test01.vcxproj -> D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\bin\spout_midi_fft_test01_debug.exe
+     1>Das Projekt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" (1) erstellt "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" (2:4) auf Knoten "2", GetCopyToOutputDirectoryItems Ziel(e).
+       Die Projektdatei enthält ToolsVersion="14.0". Dieses Toolset ist möglicherweise nicht bekannt oder nicht vorhanden. In diesem Fall können Sie das Problem möglicherweise beheben, indem Sie die entsprechende Version von MSBuild installieren. Oder für den Build wurde aufgrund der Richtlinie eine bestimmte ToolsVersion erzwungen. Das Projekt wird behandelt, als enthielte es ToolsVersion="4.0". Weitere Informationen finden Sie unter http://go.microsoft.com/fwlink/?LinkId=291333. 
+     2>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj" ist abgeschlossen, GetCopyToOutputDirectoryItems Ziel(e).
+     1>PostBuildEvent:
+         xcopy /e /i /y "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\*.dll" "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\bin"
+         :VCEnd
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\Assimp32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\fmodex.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\fmodexL.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\FreeImage.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\FreeType-6.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\glut32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\libeay32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\ssleay32.dll
+         D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\..\..\..\export\vs\Zlib.dll
+         9 Datei(en) kopiert
+     1>Die Erstellung des Projekts "D:\00_DEVELOPMENT\OpenFrameworks\v0.8.4\apps\myApps\spout_midi_fft_test01\spout_midi_fft_test01.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:05.73
