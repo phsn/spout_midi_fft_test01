@@ -1,13 +1,19 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxSpout2.h"
+#include "ofxMidi.h"
+#include "ofxFFTBase.h"
 
-class ofApp : public ofBaseApp{
+
+class ofApp : public ofBaseApp, public ofxMidiListener{
 
 	public:
 		void setup();
 		void update();
 		void draw();
+
+		void exit();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -18,5 +24,27 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		
+
+		void drawMidiUI();
+
+		ofFbo fbo;
+		ofxSpout2 spout;
+
+		ofPoint cPos;
+		float circleRadius;
+
+		ofxMidiIn	midiIn;
+		ofxMidiMessage midiMessage;
+		void newMidiMessage(ofxMidiMessage& eventArgs);
+	
+		stringstream text;
+
+		void audioIn(float * input, int bufferSize, int nChannels);
+		void drawSamples(vector<float> samples);
+		ofSoundStream soundStream;
+		vector<float> samplesChannelL;
+		vector<float> samplesChannelR;
+    
+		ofxFFTBase fftChannelL;
+		ofxFFTBase fftChannelR;
 };
